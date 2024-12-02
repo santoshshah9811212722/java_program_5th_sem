@@ -16,19 +16,20 @@ public class Random_Picker {
 
                 int index=rand.nextInt(list.length);
                 String name=list[index];
-                System.out.println("welcome sir: "+ name);
+                System.out.println("you most welcome guys: "+ name);
             }
         }
 
         else{
             System.out.println("only 30 students are in your class so please enter below 30");
         }
+      
         input.close();
 
     }
-    catch (Exception e) {
+    catch (InputMismatchException e) {
+            System.out.println(" invalid input try only numbers!!! ");
             System.out.println(" Number only supported!!! ");
-
         }
 
     }
