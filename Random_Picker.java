@@ -23,7 +23,7 @@ public class Random_Picker {
         else{
             System.out.println("only 30 students are in your class so please enter below 30");
         }
-      
+    
         input.close();
 
     }
