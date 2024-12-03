@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.InputMismatchException;
 public class Random_Picker {
     public static void main(String[] args){
-        String[] list={"santosh shah","rahul","binam","bikram","prabin","satish","sijan","rachita","sujana","manju"};
+        String[] list={"Amar Chaudhary","Chahana Gautam","Sunil Karki","Bhanu Aryal","Mison Chalise","Nanda Kishor mandal","Pradip Karki","Bikram Kumal","Anuj Kumar Karn","Amrit Poudel","Anjana Khatiwoda","Subir Chauhan","Nabin kandel","Sachin Bhattrai","Subani Budhathoki","Nirmaya Tamang","Ujwal Dhakal","Rahul kc","Binam Pathak","Prabin Joshi","Satish Chaudhary","Sijan Pokhrel","Rachita Thakuri","Sujana Shakya","Manju Neupane"};
         try {
             Scanner input=new Scanner(System.in);
             System.out.println("enter the selection number: ");
